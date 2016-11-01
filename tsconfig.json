@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "types": [
+      "mocha",
+      "node",
+      "chai",
+      "typemoq"
+    ]
+  }
+}
