@@ -12,7 +12,7 @@
       "mocha",
       "node",
       "chai",
-      "typemoq"
+      "ts-mockito"
     ]
   }
 }
