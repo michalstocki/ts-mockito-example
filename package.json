@@ -1,7 +1,7 @@
 {
   "name": "typemoq-example",
   "version": "1.0.0",
-  "description": "Real example usage of typemoq library",
+  "description": "Real example usage of ts-mockito library",
   "main": "index.js",
   "scripts": {
     "clean": "find ./src -name \"*.js\" -delete && find ./test -name \"*.js\" -delete",
@@ -9,7 +9,7 @@
     "test": "npm run compile && ./node_modules/.bin/mocha --recursive --inline-diffs"
   },
   "keywords": [
-    "typmoq",
+    "ts-mockito",
     "unit",
     "testing",
     "TypeScript",
