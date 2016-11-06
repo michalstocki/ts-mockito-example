@@ -1,6 +1,6 @@
 import {User} from '../../../../user/User';
 
-export class MikroportBookingJiraIssueRequestSender {
+export class WirelessMicBookingJiraIssueRequestSender {
 
     public sendBookRequestFor(user:User, date:Date):void {
         return null;

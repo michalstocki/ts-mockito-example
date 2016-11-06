@@ -6,7 +6,7 @@ export class ITDepartment {
         return null;
     }
 
-    public simplyBookMikroportFor(user:User):void {
+    public simplyBookWirelessMicFor(user:User):void {
         return null;
     }
 }
