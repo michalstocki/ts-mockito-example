@@ -2,7 +2,7 @@ import {User} from '../../../../user/User';
 import {ITDepartment} from '../../ITDepartment';
 import {MikroportBookingJiraIssueRequestSender} from './MikroportBookingJiraIssueRequestSender';
 
-export class MikroportLender {
+export class MikroportBooker {
 
     constructor(private itDepartment:ITDepartment,
                 private mikroportBookingJiraIssueRequestSender:MikroportBookingJiraIssueRequestSender) {
