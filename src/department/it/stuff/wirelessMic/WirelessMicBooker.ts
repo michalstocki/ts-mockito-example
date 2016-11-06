@@ -9,12 +9,7 @@ export class WirelessMicBooker {
     }
 
     public bookMicrophoneFor(user:User, date:Date):void {
-        if (this.itDepartment.isFriendlyFor(user)) {
-            this.itDepartment.simplyBookWirelessMicFor(user);
-        } else {
-
-            this.wirelessMicBookingJiraIssueRequestSender.sendBookRequestFor(user, date);
-        }
+        return null;
     }
 
 }
