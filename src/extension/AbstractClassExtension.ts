@@ -11,4 +11,8 @@ export class AbstractClassExtension extends AbstractClass {
             this.nextCell.methodA(argumentA);
         }
     }
+
+    public methodB(someArgument:string):string {
+        return `provided value: ${someArgument}`;
+    }
 }

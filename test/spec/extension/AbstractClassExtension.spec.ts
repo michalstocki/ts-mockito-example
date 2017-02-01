@@ -28,7 +28,7 @@ describe('AbstractClassExtension', () => {
     });
 
     describe('when it was given a non-object argument', () => {
-        it('desn`t call next cell', () => {
+        it('doesn`t call next cell', () => {
             // given
             const argumentA = new Objectable(false);
 
